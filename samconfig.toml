@@ -1,7 +1,7 @@
 version = 0.1
 
 [default.deploy.parameters]
-stack_name = "staging-todo-list-aws"
+stack_name = "prod-todo-list-aws"
 resolve_s3 = true
 capabilities = "CAPABILITY_IAM"
-parameter_overrides = "StageName=staging"
+parameter_overrides = "StageName=Prod"
