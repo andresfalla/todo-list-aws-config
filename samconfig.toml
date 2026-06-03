@@ -5,3 +5,4 @@ stack_name = "staging-todo-list-aws"
 resolve_s3 = true
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "StageName=staging"
+region = "us-east-1"
