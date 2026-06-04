@@ -2,12 +2,13 @@ version = 0.1
 
 [default]
 
+[default.global.parameters]
+stack_name = "staging-todo-list-aws"
+
 [default.deploy]
 region = "us-east-1"
 
 [default.deploy.parameters]
-stack_name = "staging-todo-list-aws"
 resolve_s3 = true
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "StageName=staging"
-
