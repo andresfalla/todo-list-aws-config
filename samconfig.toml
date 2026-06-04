@@ -1,7 +1,15 @@
 version = 0.1
 
-[default.deploy.parameters]
+[default]
+
+[default.global.parameters]
 stack_name = "prod-todo-list-aws"
+
+[default.deploy]
+region = "us-east-1"
+
+[default.deploy.parameters]
 resolve_s3 = true
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "StageName=Prod"
+
